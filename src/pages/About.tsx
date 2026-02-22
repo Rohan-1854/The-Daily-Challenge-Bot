@@ -9,19 +9,10 @@ interface TeamMember {
 const teamMembers: TeamMember[] = [
   {
     name: "Rohan Raj",
-    role: "Project Guide",
+    role: "Project Lead & Developer",
     image: "https://avatars.githubusercontent.com/u/150837450?v=4"
   },
-  {
-    name: "Divya Raj Singh",
-    role: "Project Lead & Developer",
-    image: "https://avatars.githubusercontent.com/u/146539466?v=4"
-  },
-  {
-    name: "Ayushi Kumari",
-    role: "UI/UX Designer",
-    image: "https://avatars.githubusercontent.com/u/152266955?v=4"
-  }
+  
 ];
 
 const About = () => {
@@ -100,5 +91,6 @@ const About = () => {
     </Container>
   );
 };
+
 
 export default About; 
